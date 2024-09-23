@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8650250844014838216}
   - component: {fileID: 8623248527916179735}
+  - component: {fileID: 1278290043153370776}
   m_Layer: 0
   m_Name: Banana1_0
   m_TagString: Untagged
@@ -51,6 +52,7 @@ SpriteRenderer:
   m_RayTraceProcedural: 0
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -86,3 +88,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1278290043153370776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3548901973258150872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48722448831aff84c97e1e2db5b98a75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tempoParaDiminuir: 0.5
+  velocidade: 5
+  velocidadeDiminuicao: 1
